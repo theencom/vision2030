@@ -7,9 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vision 2030</title>
     <link href="/dist/output.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
 </head>
 
-<body>
+<body class="">
+
+    <div class="fixed top-0 right-0 popup h-screen w-screen popoff">
+        <iframe src="https://hadirbox.com/event31/form" frameborder="0" height="300px" width="450px" class="min-w-[600px] min-h-[400px] absolute right-1/2 top-1/2 transform  mt-[-13rem]">
+        </iframe>
+    </div>
     <main>
 
         <!-- Hero section -->
@@ -34,10 +41,11 @@
                     </div>
                 </div>
 
-                <a href="https://hadirbox.com/event31/form"
-                    class="w-44 px-16 py-3 text-white text-2xl mt-8 rounded-full flex justify-center items-center bg-gradient-to-r from-[#C1CD3D] to-[#2DA9B0] hover:from-[#40AEA2] hover:to-[#72BA7B]">
+                <a 
+                    class="w-44 px-16 py-3 text-white text-2xl mt-8 rounded-full flex justify-center items-center bg-gradient-to-r from-[#C1CD3D] to-[#2DA9B0] hover:from-[#40AEA2] hover:to-[#72BA7B] popon">
                     التسجيل
                 </a>
+
             </div>
         </section>
 
@@ -126,7 +134,14 @@
             </div>
         </section> -->
     </main>
+
+
+
 </body>
+
+<script type="module"  src="/dist/site.js"></script>
+
+
 
 </html>
 
@@ -134,4 +149,9 @@
     .logo-position {
         background-position: 70px 30px;
     }
+
+    .popup {
+        translate: y 100% !important ;
+    }
+
 </style>
