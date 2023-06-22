@@ -8,19 +8,62 @@
     <title>Vision 2030</title>
     <link href="/dist/output.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 </head>
 
-<body class="">
+<body class="h-screen min-w-screen -z-10">
+    <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+    centered-slides="true" autoplay-delay="2500" autoplay="true">
+    <swiper-slide class="bg-[url('/images/hero.png')]">Slide 1</swiper-slide>
+    <swiper-slide class="bg-[url('/images/section-2.png')]">Slide 2</swiper-slide>
+    <swiper-slide class="bg-[url('/images/slide-1.jpg')] bg-no-repeat bg-cover"></swiper-slide>
+    <swiper-slide class="bg-[url('/images/slide-2.jpg')] bg-no-repeat bg-cover">Slide 2</swiper-slide>
+    <swiper-slide class="bg-[url('/images/slide-3.jpg')] bg-no-repeat bg-cover">Slide 2</swiper-slide>
+    <swiper-slide class="bg-[url('/images/slide-4.jpg')] bg-no-repeat bg-cover">Slide 2</swiper-slide>
+    <swiper-slide class="bg-[url('/images/slide-5.jpg')] bg-no-repeat bg-cover">Slide 2</swiper-slide>
+    <swiper-slide class="bg-[url('/images/slide-6.jpg')] bg-no-repeat bg-cover">Slide 2</swiper-slide>
 
-    <div class="fixed top-0 right-0 popup h-screen w-screen popoff">
+  </swiper-container>
+  <div class="container mx-auto md:px-16 px-6 py-10 absolute top-0 right-0 z-20">
+    <img src="/images/Logo.svg" alt="">
+    <div class="text-white mt-10">
+        <h1 class="text-4xl">لقاء تواصل <br>
+            رؤية المملكة 2030</h1>
+        <p class="mt-4 md:w-96">خلال العام الحالي في مختلف مناطق المملكة الذي سيستضيف حوالي 150 - 300 ضيف من
+            منسوبي التواصل في برامج تحقيق الرؤية والجهات التنفيذية من وزارات و هيئات وشركات وأجهزة حكومية
+        </p>
+    </div>
+    <div class="flex text-white mt-8">
+        <div class="flex">
+            <img src="/images/map-icon.svg" alt="">
+            <p class="mr-2">الجوف</p>
+        </div>
+        <div class="flex mr-8">
+            <img src="/images/calander-icon.svg" alt="">
+            <p class="mr-3">الأحد 25 يوليو</p>
+        </div>
+    </div>
+
+    <a href="/form.html"
+        class="w-44 px-16 py-3 text-white text-2xl mt-8 rounded-full flex justify-center items-center bg-gradient-to-r from-[#C1CD3D] to-[#2DA9B0] hover:from-[#40AEA2] hover:to-[#72BA7B] ">
+        التسجيل
+    </a>
+
+</div>
+
+
+
+
+    <!-- <div class="fixed top-0 right-0 popup h-screen w-screen popoff">
         <iframe src="https://hadirbox.com/event31/form" frameborder="0" height="300px" width="450px" class="min-w-[600px] min-h-[400px] absolute right-1/2 top-1/2 transform  mt-[-13rem]">
         </iframe>
-    </div>
-    <main>
+    </div> -->
+ 
 
         <!-- Hero section -->
-        <section class="md:min-w-[1440px] min-h-[1130px] bg-cover bg-no-repeat bg-[url('/images/hero.png')]">
+        <!-- <section class="md:min-w-[1440px] min-h-[1130px] bg-cover bg-no-repeat bg-[url('/images/hero.png')]">
             <div class="container mx-auto md:px-16 px-6 py-10">
                 <img src="/images/Logo.svg" alt="">
                 <div class="text-white mt-10">
@@ -47,7 +90,7 @@
                 </a>
 
             </div>
-        </section>
+        </section> -->
 
         <!-- Section 2 -->
         <!-- <section
@@ -133,7 +176,6 @@
 
             </div>
         </section> -->
-    </main>
 
 
 
@@ -146,6 +188,21 @@
 </html>
 
 <style>
+
+    swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+
     .logo-position {
         background-position: 70px 30px;
     }
