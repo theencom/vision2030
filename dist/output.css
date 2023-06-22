@@ -2684,8 +2684,16 @@ video {
     top: 20%;
   }
 
+  .md\:top-\[10\%\] {
+    top: 10%;
+  }
+
   .md\:h-auto {
     height: auto;
+  }
+
+  .md\:h-\[700px\] {
+    height: 700px;
   }
 
   .md\:min-h-\[400px\] {
