@@ -957,6 +957,10 @@ video {
   height: 99vh;
 }
 
+.h-\[screen\] {
+  height: screen;
+}
+
 .max-h-screen {
   max-height: 100vh;
 }
