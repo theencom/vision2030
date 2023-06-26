@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+html, body {
+    font-family: "bukra-regular" !important;
+}
+
+
+
+@font-face {
+    font-family: 'bukra-bold';
+    src: url('./fonts/bukra-bold.woff2') format('woff2'),
+         url('./fonts/bukra-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bukra-regular';
+    src: url('/fonts/bukra-regular.ttf') format('truetype'),
+         url('/fonts/bukra-regular.woff2') format('woff2'),
+         url('/fonts/bukra-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
