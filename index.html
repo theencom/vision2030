@@ -5,12 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vision 2030</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <script type="module" src="/dist/site.js"></script>
     <link href="/dist/output.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 </head>
 
 <body class="relative">
+    <!-- Loading Page  -->
+    <div id="preloader">
+        <div class="loader absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2">
+            <img src="/images/Logo.svg" alt="" class="transition w-full h-36 animate-pulse">
+        </div>
+    </div>
+    <!-- End Loading Page  -->
+
     <!-- Navigation - Logo  -->
     <nav>
         <div class="md:p-8 p-4"><img src="/images/Logo.svg" alt="" class="w-40"></div>
