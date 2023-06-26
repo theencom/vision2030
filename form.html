@@ -12,22 +12,30 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <script type="module" src="/dist/site.js"></script>
 
 </head>
 
-<body class="md:bg-transparent bg-[#244478]">
+<body class="bg-[#244478]">
+
+    <div id="preloader">
+        <div class="loader absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2">
+            <img src="/images/Logo.svg" alt="" class="transition w-full h-36 animate-pulse" style="">
+        </div>
+    </div>
+
     <main class="bg-gradient-to-l from-black">
         <!-- Hero section -->
 
         <div class="flex justify-center items-center">
-            <iframe src="https://hadirbox.com/event31/form?lang_button=false" frameborder="0" height="526px"
-                class="md:w-[600px] md:right-[30%] md:top-[20%] top-32 fixed md:h-[480px] w-full">
+            <iframe src="https://hadirbox.com/event31/form?lang_button=false" frameborder="0" height=""
+                class="md:w-full top-32 fixed md:h-[40rem] h-[35rem] w-full overflow-y-scroll">
             </iframe>
         </div>
-        <div><a href="https://vision2030forum.net/"><img src="/images/Logo.svg" alt="" class="absolute top-9 right-9 z-10">
+        <div><a href="/index.html"><img src="/images/Logo.svg" alt="" class="absolute top-9 right-9 z-10">
         </a></div>
 
-        <swiper-container class="mySwiper -z-30 md:max-h-screen md:h-auto h-[99vh] hidden md:block" autoplay-delay="6000" autoplay-disable-on-interaction="false"
+        <!-- <swiper-container class="mySwiper -z-30 md:max-h-screen md:h-auto h-[99vh] hidden md:block" autoplay-delay="6000" autoplay-disable-on-interaction="false"
             centered-slides="true" loop="true">
 
             <swiper-slide><img src="/images/hero.png" alt="" class="h-full"></swiper-slide>
@@ -38,7 +46,7 @@
             <swiper-slide><img src="/images/slide-4.jpg" alt="" class=" h-screen"></swiper-slide>
             <swiper-slide><img src="/images/slide-5.jpg" alt="" class="md:h-auto h-screen"></swiper-slide>
             <swiper-slide><img src="/images/slide-6.jpg" alt="" class="md:h-auto h-screen"></swiper-slide>
-        </swiper-container>
+        </swiper-container> -->
 
     </main>
 </body>

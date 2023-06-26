@@ -31,3 +31,16 @@ html, body {
     font-style: normal;
 
 }
+
+
+#preloader {
+    margin: auto;
+    position: fixed;
+    z-index: 999 !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(225deg, #C1CC3C 18.00%, #2DA9B0 48.33%, rgba(31, 50, 94, 0.00) 85.24%);
+}
