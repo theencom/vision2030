@@ -616,6 +616,14 @@ video {
   z-index: 10;
 }
 
+.z-50 {
+  z-index: 50;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -646,6 +654,10 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .block {
@@ -712,6 +724,10 @@ video {
   width: 100vw;
 }
 
+.w-4 {
+  width: 1rem;
+}
+
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -749,8 +765,20 @@ video {
   align-items: center;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-center {
   justify-content: center;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .overflow-y-scroll {
@@ -774,6 +802,38 @@ video {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-slate-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#72BA7B\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(114 186 123 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#5ab667\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(90 182 103 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#2DA9B0\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(45 169 176 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\/images\/hero\.png\'\)\] {
+  background-image: url('/images/hero.png');
+}
+
+.bg-\[url\(\'\/images\/last-section-bg\.jpg\'\)\] {
+  background-image: url('/images/last-section-bg.jpg');
 }
 
 .bg-\[url\(\'\/images\/mobile\/1\.jpg\'\)\] {
@@ -800,8 +860,44 @@ video {
   background-image: url('/images/mobile/6.jpg');
 }
 
-.bg-\[url\(\'\/images\/section-2\.png\'\)\] {
-  background-image: url('/images/section-2.png');
+.bg-\[url\(\'\/images\/mobile\/slide-1\.jpg\'\)\] {
+  background-image: url('/images/mobile/slide-1.jpg');
+}
+
+.bg-\[url\(\'\/images\/mobile\/slide-10\.jpg\'\)\] {
+  background-image: url('/images/mobile/slide-10.jpg');
+}
+
+.bg-\[url\(\'\/images\/mobile\/slide-2\.jpg\'\)\] {
+  background-image: url('/images/mobile/slide-2.jpg');
+}
+
+.bg-\[url\(\'\/images\/mobile\/slide-3\.jpg\'\)\] {
+  background-image: url('/images/mobile/slide-3.jpg');
+}
+
+.bg-\[url\(\'\/images\/mobile\/slide-4\.jpg\'\)\] {
+  background-image: url('/images/mobile/slide-4.jpg');
+}
+
+.bg-\[url\(\'\/images\/mobile\/slide-5\.jpg\'\)\] {
+  background-image: url('/images/mobile/slide-5.jpg');
+}
+
+.bg-\[url\(\'\/images\/mobile\/slide-6\.jpg\'\)\] {
+  background-image: url('/images/mobile/slide-6.jpg');
+}
+
+.bg-\[url\(\'\/images\/mobile\/slide-7\.jpg\'\)\] {
+  background-image: url('/images/mobile/slide-7.jpg');
+}
+
+.bg-\[url\(\'\/images\/mobile\/slide-8\.jpg\'\)\] {
+  background-image: url('/images/mobile/slide-8.jpg');
+}
+
+.bg-\[url\(\'\/images\/mobile\/slide-9\.jpg\'\)\] {
+  background-image: url('/images/mobile/slide-9.jpg');
 }
 
 .bg-gradient-to-l {
@@ -810,6 +906,10 @@ video {
 
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\'\/images\/mobile\/slide-2\.jpeg\'\)\] {
+  background-image: url('/images/mobile/slide-2.jpeg');
 }
 
 .from-\[\#C1CD3D\] {
@@ -824,6 +924,12 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-indigo-500 {
+  --tw-gradient-from: #6366f1 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(99 102 241 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .to-\[\#2DA9B0\] {
   --tw-gradient-to: #2DA9B0 var(--tw-gradient-to-position);
 }
@@ -832,12 +938,25 @@ video {
   background-size: cover;
 }
 
+.bg-center {
+  background-position: center;
+}
+
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
 
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .p-4 {
   padding: 1rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .px-10 {
@@ -853,6 +972,11 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .text-2xl {
@@ -880,6 +1004,10 @@ video {
 
 .opacity-40 {
   opacity: 0.4;
+}
+
+.opacity-80 {
+  opacity: 0.8;
 }
 
 .transition {
@@ -968,12 +1096,16 @@ html, body {
     height: auto;
   }
 
+  .md\:h-full {
+    height: 100%;
+  }
+
   .md\:h-screen {
     height: 100vh;
   }
 
-  .md\:h-full {
-    height: 100%;
+  .md\:h-\[130vh\] {
+    height: 130vh;
   }
 
   .md\:max-h-screen {
@@ -996,12 +1128,24 @@ html, body {
     width: 100%;
   }
 
+  .md\:w-40 {
+    width: 10rem;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
 
   .md\:items-start {
     align-items: flex-start;
+  }
+
+  .md\:items-end {
+    align-items: flex-end;
+  }
+
+  .md\:items-center {
+    align-items: center;
   }
 
   .md\:justify-start {
@@ -1036,8 +1180,53 @@ html, body {
     background-image: url('/images/6.jpg');
   }
 
+  .md\:bg-\[url\(\'\/images\/slide-1\.jpg\'\)\] {
+    background-image: url('/images/slide-1.jpg');
+  }
+
+  .md\:bg-\[url\(\'\/images\/slide-10\.jpg\'\)\] {
+    background-image: url('/images/slide-10.jpg');
+  }
+
+  .md\:bg-\[url\(\'\/images\/slide-2\.jpg\'\)\] {
+    background-image: url('/images/slide-2.jpg');
+  }
+
+  .md\:bg-\[url\(\'\/images\/slide-3\.jpg\'\)\] {
+    background-image: url('/images/slide-3.jpg');
+  }
+
+  .md\:bg-\[url\(\'\/images\/slide-4\.jpg\'\)\] {
+    background-image: url('/images/slide-4.jpg');
+  }
+
+  .md\:bg-\[url\(\'\/images\/slide-5\.jpg\'\)\] {
+    background-image: url('/images/slide-5.jpg');
+  }
+
+  .md\:bg-\[url\(\'\/images\/slide-6\.jpg\'\)\] {
+    background-image: url('/images/slide-6.jpg');
+  }
+
+  .md\:bg-\[url\(\'\/images\/slide-7\.jpg\'\)\] {
+    background-image: url('/images/slide-7.jpg');
+  }
+
+  .md\:bg-\[url\(\'\/images\/slide-8\.jpg\'\)\] {
+    background-image: url('/images/slide-8.jpg');
+  }
+
+  .md\:bg-\[url\(\'\/images\/slide-9\.jpg\'\)\] {
+    background-image: url('/images/slide-9.jpg');
+  }
+
   .md\:p-8 {
     padding: 2rem;
+  }
+
+  .md\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .md\:text-3xl {
