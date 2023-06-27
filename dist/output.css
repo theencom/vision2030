@@ -700,10 +700,6 @@ video {
   width: 10rem;
 }
 
-.w-44 {
-  width: 11rem;
-}
-
 .w-8 {
   width: 2rem;
 }
@@ -844,9 +840,9 @@ video {
   padding: 1rem;
 }
 
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .py-3 {
@@ -857,16 +853,6 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 
 .text-2xl {
@@ -951,10 +937,6 @@ html, body {
   filter: invert(10%) sepia(11%) saturate(400) hue-rotate(184deg) brightness(112%) contrast(58%)
 }
 
-.hover\:mr-96:hover {
-  margin-right: 24rem;
-}
-
 .hover\:from-\[\#40AEA2\]:hover {
   --tw-gradient-from: #40AEA2 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(64 174 162 / 0) var(--tw-gradient-to-position);
@@ -963,10 +945,6 @@ html, body {
 
 .hover\:to-\[\#72BA7B\]:hover {
   --tw-gradient-to: #72BA7B var(--tw-gradient-to-position);
-}
-
-.hover\:duration-300:hover {
-  transition-duration: 300ms;
 }
 
 @media (min-width: 768px) {
@@ -992,6 +970,10 @@ html, body {
 
   .md\:h-screen {
     height: 100vh;
+  }
+
+  .md\:h-full {
+    height: 100%;
   }
 
   .md\:max-h-screen {
