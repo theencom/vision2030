@@ -44,3 +44,9 @@ html, body {
     height: 100%;
     background: linear-gradient(225deg, #C1CC3C 18.00%, #2DA9B0 48.33%, rgba(31, 50, 94, 0.00) 85.24%);
 }
+
+.blueFilter:hover {
+    filter: invert(10%) sepia(11%) saturate(400) hue-rotate(184deg) brightness(112%) contrast(58%)
+
+
+}

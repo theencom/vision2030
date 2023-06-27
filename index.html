@@ -94,25 +94,28 @@
                         لتواصل
                         رؤية المملكة 2030 خلال المرحلة القادمة.
                     </p>
-
                 </div>
 
-                <div class="flex mt-8 font-bold">
+                <div class="flex items-center mt-8 font-bold">
                     <div class="flex justify-center items-center">
-                        <img src="/images/map-icon.svg" alt="">
-                        <p class="mr-2">مركز الجوف الحضاري</p>
+                        <img src="/images/clock.svg" alt="" class="w-8">
+                        <p class="mr-1 font-bold">9:30 صباحاً – 1:30 مساءً</p>
                     </div>
 
-                    <div class="flex mr-8">
+                    <div class="flex items-center mr-8">
                         <img src="/images/calander-icon.svg" alt="">
                         <p class="mr-3">الثلاثاء 25 يوليو 2023</p>
                     </div>
                 </div>
 
-                <div class="flex text-white mt-8">
-                    <img src="/images/clock.svg" alt="" class="w-8">
-                    <p class="mr-1 font-bold">9:30 صباحاً – 1:30 مساءً</p>
+                <div class="flex items-center text-white mt-8">
+                    <img src="/images/map-icon.svg" alt="">
+                <p class="mr-2">مركز الجوف الحضاري</p>
+
                 </div>
+
+
+                
 
                 <div>
                     <a href="/form.html"
@@ -124,28 +127,28 @@
                 <!-- Footer Section  -->
                 <div>
                     <p class="mb-4 mt-4 font-bold">تواصل معنا</p>
-                    <div class="flex md:justify-start justify-center items-center mb-8">
+                    <div class="flex md:justify-start  items-center mb-8">
                         <div>
                             <a href="https://www.instagram.com/saudivision2030/">
-                                <img src="/images/instagram-white.svg" alt="">
+                                <img src="/images/instagram-white.svg" alt="" class="blueFilter duration-300">
                             </a>
                         </div>
 
                         <div>
                             <a href="https://www.vision2030.gov.sa/ar/">
-                                <img src="/images/web.png" alt="" class="w-8 mr-8">
+                                <img src="/images/web.png" alt="" class="w-8 mr-8 blueFilter duration-300">
                             </a>
                         </div>
 
                         <div>
                             <a href="https://www.youtube.com/channel/UC3pvQeDObhT0nGC58txGnzg">
-                                <img src="/images/youtube-white.svg" alt="" class="mr-8">
+                                <img src="/images/youtube-white.svg" alt="" class="mr-8 blueFilter duration-300">
                             </a>
                         </div>
 
                         <div>
                             <a href="https://twitter.com/saudivision2030">
-                                <img src="/images/twitter-white.svg" alt="" class="mr-8">
+                                <img src="/images/twitter-white.svg" alt="" class="mr-8 blueFilter duration-300">
                             </a>
                         </div>
                     </div>
@@ -161,9 +164,9 @@
             <div class="container">
                 <div class="h-screen w-screen">
                     <div class="flex md:flex-row flex-col justify-center text-white bg-[#2D77B7]">
-                        <div class="md:w-1/2 md:p-8 p-4">
+                        <div class="md:w-1/2 md:p-8 p-4 py-8">
                             <div>
-                                <h1 class="text-4xl">عن لقاء تواصل رؤية المملكة <span><img src="/images/2030.svg" alt="" class="w-32 inline"></h1>
+                                <h1 class="md:text-3xl text-2xl">عن لقاء تواصل رؤية المملكة <span><img src="/images/2030.svg" alt="" class="w-32 inline "></h1>
                                 <p class="mt-4 md:w-5/6  line-h leading-6">ضمن إطار جهود مكتب الإدارة الاستراتيجية لتعزيز
                                     تواصل رؤية
                                     المملكة 2030، تم عقد
@@ -204,11 +207,11 @@
                             </div>
 
                             <div>
-                                <h1 class="text-3xl mt-8">
+                                <h1 class="md:text-3xl text-2xl mt-8">
 
                                     الجوف أولى محطات لقاء تواصل رؤية المملكة <span><img src="/images/2030.svg" alt="" class="w-32 inline"> خارج الرياض</h1>
 
-                                <p class="mt-8 md:w-4/5 leading-6">تعتبر منطقة الجوف ذات أهمية استراتيجية كبيرة في تحقيق
+                                <p class="mt-4 md:w-4/5 leading-6">تعتبر منطقة الجوف ذات أهمية استراتيجية كبيرة في تحقيق
                                     رؤية المملكة
                                     2030 نظراً
                                     للثروات
@@ -227,7 +230,7 @@
                         </div>
 
 
-                        <div class="md:w-1/2 bg-[url('/images/section-2.png')]">
+                        <div class="md:w-1/2 bg-no-repeat bg-cover bg-[url('/images/section-2.png')]">
                             <img src="images/section-2.png" alt="" class="md:hidden">
                         </div>
                     </div>
@@ -247,7 +250,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script>
         var swiper = new Swiper(".mySwiper", {
-            spaceBetween: 30,
+            spaceBetween: 0,
             centeredSlides: true,
             autoplay: {
                 delay: 2500,
@@ -291,4 +294,6 @@
         height: 100%;
         object-fit: cover;
     }
+
+
 </style>
