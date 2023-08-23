@@ -616,6 +616,10 @@ video {
   z-index: 10;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -730,6 +734,14 @@ video {
 
 .w-\[80wh\] {
   width: 80wh;
+}
+
+.w-\[3rem\] {
+  width: 3rem;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .-translate-x-1\/2 {
@@ -993,6 +1005,31 @@ video {
   padding-bottom: ;
 }
 
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.\!px-10 {
+  padding-left: 2.5rem !important;
+  padding-right: 2.5rem !important;
+}
+
+.\!px-\[10px\] {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.px-\[10px\] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1221,5 +1258,17 @@ html, body {
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:py-\[5rem\] {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .xl\:px-\[15rem\] {
+    padding-left: 15rem;
+    padding-right: 15rem;
   }
 }
