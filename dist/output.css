@@ -1152,6 +1152,16 @@ html, body {
     padding: 2rem;
   }
 
+  .md\:px-\[15rem\] {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+
+  .md\:py-\[5rem\] {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
   .md\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
