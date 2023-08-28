@@ -97,8 +97,10 @@
       object-fit: cover;
     }
 
-    .swiper-slide.swiper-slide-active {
-    background: black;
+
+
+    .swiper-slide {
+    background: black !important;
 }
 
 
@@ -120,7 +122,6 @@
     /* Ipad mini  */
     @media only screen and (min-width: 768px) {
       .h-fix{
-        height: 29rem;
         height: 55rem;
       }
    
@@ -165,10 +166,10 @@
     <div class="swiper-wrapper">
 
       <div class="swiper-slide">
-<<<<<<< HEAD
+
         <h1 class=" text-2xl absolute top-[1rem] text-white" >اللقاء الأول في مدية الرياض</h1>
         <!-- <iframe class="w-screen h-screen" src="https://www.youtube.com/embed/jTn3w1BOeRc?si=D99ovWGn7f-y7gJs&autoplay=1&mute=1&loop=1&amp;controls=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-        <div class="relative md:snap-start w-screen h-fix mt-[4rem] md:mt-[4rem]">
+        <div class="relative md:snap-start w-screen h-screen mt-[4rem] md:mt-[4rem]">
           <video autoplay playsinline muted loop id="myVideo" class="  object-cover">
               <source src="/videos/alriyadh.webm" type="video/webm">
           </video>
@@ -178,22 +179,12 @@
       <div class="swiper-slide">
         <h1 class="text-2xl absolute top-[1rem] text-white">اللقاء الثاني في مدية الجوف</h1>
         <!-- <iframe class="w-screen h-screen" src="https://www.youtube.com/embed/IN8kveLg0Z8?si=sMtcmXL1vPqaafAl&autoplay=1&mute=1&loop=1&amp;controls=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-        <div class="relative md:snap-start w-screen  mt-[4rem] h-fix md:mt-[4rem]">
+        <div class="relative md:snap-start w-screen mt-[4rem] h-screen  md:mt-[4rem]">
           <video autoplay playsinline muted loop id="myVideo" class="h-screen w-full object-cover">
               <source src="/videos/aljof.webm" type="video/webm">
           </video>
         </div>
-=======
-        <video autoplay playsinline  loop class="h-screen w-full object-cover">
-          <source src="/videos/videoplayback.mp4" type="video/mp4">
-        </video>
-      </div>
 
-      <div class="swiper-slide">
-        <video autoplay playsinline  loop class="h-screen w-full object-cover">
-          <source src="/videos/aljof.webm" type="video/webm">
-        </video>
->>>>>>> parent of ab94b6c (improve video slider in MD screen)
       </div>
       
 
@@ -204,7 +195,7 @@
 
   <!-- Thumbnail slider  -->
   <div thumbsSlider="" class="swiper mySwiper py-[10px] !px-[10px]">
-    <div class="swiper-wrapper">
+    <div class="swiper-wrapper bg-black">
       <div class="swiper-slide">
         <img src="/images/Screenshot 2023-08-27 at 10.21.23 AM.png" />
       </div>
