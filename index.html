@@ -197,59 +197,7 @@
 
 
 
-        <!-- Div for video section  -->
-        <div class="md:w-4/6 m-auto md:py-0 pt-6">
-        <div class="swiper mySwiper3">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide text-white p-3">
-                    <h1>اللقاء الأول في مدينة الرياض</h1>
-                </div>
 
-                <div class="swiper-slide text-white p-3">
-                    <h1>اللقاء الثاني في مدينة الجوف</h1>
-                </div>
-            </div>
-        </div>
-
-        <div class="swiper mySwiper2">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <!-- <iframe class="w-screen h-screen" src="https://www.youtube.com/embed/jTn3w1BOeRc?si=D99ovWGn7f-y7gJs&autoplay=1&mute=1&loop=1&amp;controls=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-                    <div class="relative md:snap-start w-fit m-auto">
-                        <video preload autoplay playsInline muted loop id="myVideo" class="object-cover">
-                            <source src="/videos/alriyadh.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <!-- <iframe class="w-screen h-screen" src="https://www.youtube.com/embed/IN8kveLg0Z8?si=sMtcmXL1vPqaafAl&autoplay=1&mute=1&loop=1&amp;controls=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-                    <div class="relative md:snap-start w-fit m-auto">
-                        <video preload autoplay playsInline muted loop id="myVideo" class="object-cover">
-                            <source src="/videos/aljof.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-        </div>
-
-        <!-- Thumbnail slider  -->
-        <div thumbsSlider="" class="swiper mySwiper py-4">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="/images/Screenshot 2023-08-27 at 10.21.23 AM.png" />
-                </div>
-
-                <div class="swiper-slide">
-                    <img src="/images/Screenshot 2023-08-27 at 10.20.04 AM.png" />
-                </div>
-
-            </div>
-        </div>
-        </div>
 
 
         </div>
@@ -382,6 +330,60 @@
             </div>
         </section>
         <!-- End Second Section  -->
+
+
+        <!-- Videos section  -->
+        <section class="from-[#67AA43] from-70% to-[#C1CC3C] bg-gradient-to-r  pt-5 md:pt-12">
+        <!-- Div for video section  -->
+        <div class="md:w-4/6 m-auto ">
+            <div class="swiper mySwiper2 relative">
+                <div class="swiper-wrapper">
+               
+                    <div class="swiper-slide">
+                        <div class="text-white p-3 md:text-3xl">
+                            <h1>اللقاء الأول في مدينة الرياض</h1>
+                        </div>
+                        <!-- <iframe class="w-screen h-screen" src="https://www.youtube.com/embed/jTn3w1BOeRc?si=D99ovWGn7f-y7gJs&autoplay=1&mute=1&loop=1&amp;controls=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                        <div class="relative md:snap-start w-fit m-auto">
+                            <video preload autoplay playsInline muted loop id="myVideo" class="object-cover">
+                                <source src="/videos/alriyadh.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <div class="text-white p-3 md:text-3xl">
+                            <h1>اللقاء الثاني في مدينة الجوف</h1>
+                        </div>
+                        <!-- <iframe class="w-screen h-screen" src="https://www.youtube.com/embed/IN8kveLg0Z8?si=sMtcmXL1vPqaafAl&autoplay=1&mute=1&loop=1&amp;controls=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                        <div class="relative md:snap-start w-fit m-auto">
+                            <video preload autoplay playsInline muted loop id="myVideo" class="object-cover">
+                                <source src="/videos/aljof.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+    
+            <!-- Thumbnail slider  -->
+            <div thumbsSlider="" class="swiper mySwiper py-4">
+                <div class="swiper-wrapper md:h-56">
+                    <div class="swiper-slide">
+                        <img src="/images/Screenshot 2023-08-27 at 10.21.23 AM.png" />
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <img src="/images/Screenshot 2023-08-28 at 3.11.48 PM.png" />
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- End Videos section  -->
     </main>
 
 
@@ -420,17 +422,7 @@
                 swiper: swiper,
             },
         });
-        var swiper3 = new Swiper(".mySwiper3", {
-            loop: true,
-            spaceBetween: 10,
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-            thumbs: {
-                swiper: swiper,
-            },
-        });
+
 
     </script>
     <!-- End Script for Swiper  -->
@@ -501,6 +493,11 @@
     .swiper-slide.text-white.p-3 {
         background: transparent;
     }
+
+    .swiper-slide {
+        display: block;
+        background: transparent;
+}
 
 
 
