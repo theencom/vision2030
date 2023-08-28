@@ -218,7 +218,7 @@
                 <div class="swiper-slide">
                     <!-- <iframe class="w-screen h-screen" src="https://www.youtube.com/embed/jTn3w1BOeRc?si=D99ovWGn7f-y7gJs&autoplay=1&mute=1&loop=1&amp;controls=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
                     <div class="relative md:snap-start w-fit m-auto">
-                        <video autoplay playsinline muted loop id="myVideo" class="object-cover">
+                        <video preload autoplay playsinline muted loop id="myVideo" class="object-cover">
                             <source src="/videos/alriyadh.webm" type="video/webm">
                         </video>
                     </div>
@@ -227,7 +227,7 @@
                 <div class="swiper-slide">
                     <!-- <iframe class="w-screen h-screen" src="https://www.youtube.com/embed/IN8kveLg0Z8?si=sMtcmXL1vPqaafAl&autoplay=1&mute=1&loop=1&amp;controls=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
                     <div class="relative md:snap-start w-fit m-auto">
-                        <video autoplay playsinline muted loop id="myVideo" class="object-cover">
+                        <video preload autoplay playsinline muted loop id="myVideo" class="object-cover">
                             <source src="/videos/aljof.webm" type="video/webm">
                         </video>
                     </div>
@@ -239,7 +239,7 @@
         </div>
 
         <!-- Thumbnail slider  -->
-        <div thumbsSlider="" class="swiper mySwiper md:p-5">
+        <div thumbsSlider="" class="swiper mySwiper md:py-4">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <img src="/images/Screenshot 2023-08-27 at 10.21.23 AM.png" />
@@ -502,15 +502,9 @@
         object-fit: cover;
     }
 
-    .swiper-slide {
-
-        background-color: #1D3058;
-        background-image: url('/images/bg-shade.png');
-        background-position: bottom;
-        background-size: cover;
-        background-repeat: no-repeat;
+    .swiper-slide.text-white.p-3 {
+        background: transparent;
     }
-
 
 
 
@@ -519,7 +513,7 @@
     display: block;
     width: 100vw;
     height: 212px;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 }
