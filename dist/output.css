@@ -949,6 +949,21 @@ video {
   padding-right: 10px !important;
 }
 
+.py-\[5rem\] {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.py-\[3rem\] {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.py-\[2rem\] {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
