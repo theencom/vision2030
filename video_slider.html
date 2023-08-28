@@ -96,6 +96,64 @@
       height: 100%;
       object-fit: cover;
     }
+
+    .swiper-slide.swiper-slide-active {
+    background: black;
+}
+
+
+
+
+    /* Iphone xe */
+    @media only screen and (min-width: 375px) {
+      .h-fix{
+        height: 29rem;
+      }
+  }
+
+  @media only screen and (min-width: 390px) {
+    .h-fix {
+    height: 39rem;
+    }
+  }
+
+    /* Ipad mini  */
+    @media only screen and (min-width: 768px) {
+      .h-fix{
+        height: 29rem;
+        height: 55rem;
+      }
+   
+  }
+
+/* 
+  @media only screen and (min-width: 1024px) {
+    .h-fix {
+    height: 76rem;
+    }
+  } */
+
+
+     /* 4K  */
+     @media only screen and (min-width: 2560px) {
+      .h-fix {
+      height: 55rem;
+      }
+  }
+    /* Rasha laptop */
+      /* @media only screen and (min-width: 1280px) {
+    .h-fix {
+    height: 76rem;
+    } */
+    
+
+  
+
+
+
+ 
+
+  
   </style>
 </head>
 
@@ -105,21 +163,22 @@
   <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
 
     <div class="swiper-wrapper">
+
       <div class="swiper-slide">
-        <h1 class="text-white text-2xl absolute top-5" >اللقاء الأول في مدية الرياض</h1>
+        <h1 class=" text-2xl absolute top-[1rem] text-white" >اللقاء الأول في مدية الرياض</h1>
         <!-- <iframe class="w-screen h-screen" src="https://www.youtube.com/embed/jTn3w1BOeRc?si=D99ovWGn7f-y7gJs&autoplay=1&mute=1&loop=1&amp;controls=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-        <div class="relative md:snap-start h-screen">
-          <video autoplay playsinline muted loop id="myVideo" class="h-screen w-full object-cover">
+        <div class="relative md:snap-start w-screen h-fix mt-[4rem] md:mt-[4rem]">
+          <video autoplay playsinline muted loop id="myVideo" class="  object-cover">
               <source src="/videos/alriyadh.webm" type="video/webm">
           </video>
         </div>
       </div>
 
       <div class="swiper-slide">
-        <h1 class="text-white text-2xl absolute top-10">اللقاء الثاني في مدية الجوف</h1>
+        <h1 class="text-2xl absolute top-[1rem] text-white">اللقاء الثاني في مدية الجوف</h1>
         <!-- <iframe class="w-screen h-screen" src="https://www.youtube.com/embed/IN8kveLg0Z8?si=sMtcmXL1vPqaafAl&autoplay=1&mute=1&loop=1&amp;controls=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-        <div class="relative md:snap-start h-screen">
-          <video autoplay playsinline muted loop id="myVideo" class="h-screen p-5 w-full object-cover">
+        <div class="relative md:snap-start w-screen  mt-[4rem] h-fix md:mt-[4rem]">
+          <video autoplay playsinline muted loop id="myVideo" class="h-screen w-full object-cover">
               <source src="/videos/aljof.webm" type="video/webm">
           </video>
         </div>
