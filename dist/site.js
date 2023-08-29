@@ -14,11 +14,12 @@ $(document).ready(function(){
 
 let loader = document.getElementById('preloader');
 
-window.addEventListener('load', function () {
-    setInterval(function () {
-        loader.style.display = 'none';
-    }, 200);
 
-});
+    setInterval(function () {
+        $('')
+        loader.style.display = 'none';
+    }, 2000);
+
+
 
 
