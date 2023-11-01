@@ -660,6 +660,10 @@ video {
   height: 130vh;
 }
 
+.h-\[36rem\] {
+  height: 36rem;
+}
+
 .h-\[38rem\] {
   height: 38rem;
 }
