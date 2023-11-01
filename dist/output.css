@@ -680,6 +680,14 @@ video {
   height: 100vh;
 }
 
+.h-\[4\] {
+  height: 4;
+}
+
+.h-\[40rem\] {
+  height: 40rem;
+}
+
 .w-32 {
   width: 8rem;
 }
@@ -1060,6 +1068,30 @@ html, body {
 
   .md\:h-full {
     height: 100%;
+  }
+
+  .md\:h-\[36rem\] {
+    height: 36rem;
+  }
+
+  .md\:h-auto {
+    height: auto;
+  }
+
+  .md\:h-\[40rem\] {
+    height: 40rem;
+  }
+
+  .md\:h-\[45rem\] {
+    height: 45rem;
+  }
+
+  .md\:min-h-full {
+    min-height: 100%;
+  }
+
+  .md\:min-h-screen {
+    min-height: 100vh;
   }
 
   .md\:w-1\/2 {
