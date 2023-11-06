@@ -692,6 +692,18 @@ video {
   height: auto;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[150vh\] {
+  height: 150vh;
+}
+
+.h-\[180vh\] {
+  height: 180vh;
+}
+
 .min-h-max {
   min-height: -moz-max-content;
   min-height: max-content;
@@ -1108,6 +1120,10 @@ html, body {
     height: 100%;
   }
 
+  .md\:h-\[150vh\] {
+    height: 150vh;
+  }
+
   .md\:min-h-screen {
     min-height: 100vh;
   }
@@ -1135,6 +1151,10 @@ html, body {
 
   .md\:w-full {
     width: 100%;
+  }
+
+  .md\:w-screen {
+    width: 100vw;
   }
 
   .md\:snap-start {
